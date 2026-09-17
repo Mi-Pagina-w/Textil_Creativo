@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXTIL CREATIVO</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="icon" type="image/x-icon" href="Mi_logo.png">
+    
+    <style>
+        :root {
+            --fondo-oscuro: #0c0910;
+            --tarjeta: #1c1524; 
+            --acento-rosa: #ff3399;
+            --acento-celeste: #00d2ff;
+            --acento-morado: #9d4edd;
+            --texto: #f5f5f5;
+        }
+
+        body {
+            background: radial-gradient(circle at top, #2b1836 0%, #0c0910 100%);
+            color: var(--texto);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+            padding: 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .main-logo {
+            max-width: 170px;
+            height: auto;
+            border-radius: 12px;
+            border: 2px solid var(--acento-celeste);
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.3);
+            background-color: #15111d;
+            padding: 6px;
+        }
+
+        h1 {
+            font-family: 'Rubik', sans-serif;
+            font-weight: 900;
+            font-size: 2.2rem;
+            margin-bottom: 2.5rem;
+            background: linear-gradient(45deg, #ff3399, #00d2ff, #9d4edd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            filter: drop-shadow(3px 3px 2px rgba(0,0,0,0.8));
+            transform: rotate(-1deg);
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            background-color: var(--tarjeta);
+            padding: 18px;
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--texto);
+            font-weight: 600;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border: 1px solid rgba(157, 78, 221, 0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+
+        .link-card:hover {
+            border-color: var(--acento-rosa);
+            transform: scale(1.05);
+            background-color: #271d33;
+            box-shadow: 0 10px 25px rgba(255, 51, 153, 0.25);
+        }
+
+        .link-card i {
+            margin-right: 12px;
+            font-size: 1.4rem;
+            width: 24px;
+            text-align: center;
+            color: var(--acento-celeste);
+        }
+
+        .link-card:hover i {
+            color: var(--acento-rosa);
+        }
+
+        .footer {
+            margin-top: 3rem;
+            font-size: 0.8rem;
+            opacity: 0.6;
+            letter-spacing: .5px;
+            color: #d1b3ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="Mi_logo.png" alt="Logo Textil Creativo" class="main-logo">
+        </div>
+
+        <h1>TEXTIL CREATIVO</h1>
+        
+        <div class="links-container">
+            <a href="https://www.instagram.com/textilcreativo51?stkn=N3oxZTNob3h4OG11" class="link-card" target="_blank">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+
+            <a href="https://www.facebook.com/share/1C3ZK1NGRw/" class="link-card" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+
+            <a href="https://www.tiktok.com/@textilcreativo?_r=1&_t=ZS-99ousH0m0g8" class="link-card" target="_blank">
+                <i class="fa-brands fa-tiktok"></i> Tik Tok
+            </a>
+
+            <a href="Ubicaciones.html" class="link-card">
+                <i class="fa-solid fa-location-dot"></i> Sucursales
+            </a>
+        </div>
+
+        <p class="footer">© 2026 • TEXTIL CREATIVO • TU IDEA, EN TUS PRENDAS</p>
+    </div>
+
+</body>
+</html>
